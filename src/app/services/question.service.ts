@@ -304,6 +304,7 @@ export class QuestionService {
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Beliefs", question: "Why Have Jehovah’s Witnesses Changed Some of Their Beliefs?", url: "/en/jehovahs-witnesses/faq/jw-doctrine-changes/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Beliefs", question: "Why Don’t Jehovah’s Witnesses Use the Cross in Worship?", url: "/en/jehovahs-witnesses/faq/cross-belief/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Beliefs", question: "Do Jehovah’s Witnesses Practice Interfaith?", url: "/en/jehovahs-witnesses/faq/interfaith/" },
+
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Organization", question: "How Do Jehovah’s Witnesses Use Donations?", url: "/en/jehovahs-witnesses/faq/how-do-jw-use-donations/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Organization", question: "Why Use the Name Jehovah’s Witnesses?", url: "/en/jehovahs-witnesses/faq/name-jehovahs-witnesses/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Organization", question: "How Many of Jehovah’s Witnesses Are There Worldwide?", url: "/en/jehovahs-witnesses/faq/how-many-jw/" },
@@ -316,6 +317,7 @@ export class QuestionService {
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Organization", question: "What Is the Governing Body of Jehovah’s Witnesses?", url: "/en/jehovahs-witnesses/faq/governing-body-jw-helpers/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Organization", question: "What Is the Watch Tower Bible and Tract Society?", url: "/en/jehovahs-witnesses/faq/watchtower-society/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Organization", question: "Why Don’t Jehovah’s Witnesses Respond to All Accusations Made Against Them?", url: "/en/jehovahs-witnesses/faq/respond-to-accusations/" },
+
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Preaching", question: "Why Do Jehovah’s Witnesses Go From Door to Door?", url: "/en/jehovahs-witnesses/faq/door-to-door/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Preaching", question: "How Are Jehovah’s Witnesses Trained for Their Personal Ministry?", url: "/en/jehovahs-witnesses/faq/jw-training-for-personal-ministry/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Preaching", question: "Are Jehovah’s Witnesses Trying to Earn Salvation by Their Door-to-Door Ministry?", url: "/en/jehovahs-witnesses/faq/salvation-and-door-to-door-ministry/" },
@@ -325,19 +327,23 @@ export class QuestionService {
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Preaching", question: "What Is the Bible Study Course Offered by Jehovah’s Witnesses?", url: "/en/jehovahs-witnesses/faq/jw-bible-study-course/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Preaching", question: "Do Jehovah’s Witnesses Do Missionary Work?", url: "/en/jehovahs-witnesses/faq/missionary-work/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Preaching", question: "Do Jehovah’s Witnesses Have Women Preachers?", url: "/en/jehovahs-witnesses/faq/women-ministers/" },
+
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Meetings and Worship", question: "Why Don’t Jehovah’s Witnesses Call Their Meeting Place a Church?", url: "/en/jehovahs-witnesses/faq/jehovahs-witnesses-church-kingdom-hall/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Meetings and Worship", question: "Why Don’t Jehovah’s Witnesses Use the Cross in Worship?", url: "/en/jehovahs-witnesses/faq/cross-belief/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Meetings and Worship", question: "Why Do Jehovah’s Witnesses Observe the Lord’s Supper Differently From the Way Other Religions Do?", url: "/en/jehovahs-witnesses/faq/lords-supper/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Meetings and Worship", question: "Do Jehovah’s Witnesses Practice Interfaith?", url: "/en/jehovahs-witnesses/faq/interfaith/" },
+
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - View of the Bible", question: "Do Jehovah’s Witnesses Have Their Own Bible?", url: "/en/jehovahs-witnesses/faq/jw-bible-nwt/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - View of the Bible", question: "Is the New World Translation Accurate?", url: "/en/jehovahs-witnesses/faq/new-world-translation-accurate/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - View of the Bible", question: "Have Jehovah’s Witnesses Changed the Bible to Fit Their Beliefs?", url: "/en/jehovahs-witnesses/faq/changed-bible-beliefs/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - View of the Bible", question: "Do Jehovah’s Witnesses Believe in the Old Testament?", url: "/en/jehovahs-witnesses/faq/belief-in-old-and-new-testaments/" },
+
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Community and Political Involvement", question: "Why Do Jehovah’s Witnesses Maintain Political Neutrality?", url: "/en/jehovahs-witnesses/faq/political-neutrality/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Community and Political Involvement", question: "Why Do Jehovah’s Witnesses Respectfully Abstain From Participating in Nationalistic Ceremonies?", url: "/en/jehovahs-witnesses/faq/why-abstain-nationalistic-ceremonies-flag/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Community and Political Involvement", question: "What Happened to Jehovah’s Witnesses During the Time of the Holocaust?", url: "/en/jehovahs-witnesses/faq/jw-holocaust-facts-concentration-camps/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Community and Political Involvement", question: "Why Don’t Jehovah’s Witnesses Go to War?", url: "/en/jehovahs-witnesses/faq/why-dont-jw-go-to-war/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Community and Political Involvement", question: "Do Jehovah’s Witnesses Assist With Disaster Relief?", url: "/en/jehovahs-witnesses/faq/assist-with-disaster-relief/" },
+
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Personal and Family Life", question: "Do Jehovah’s Witnesses Accept Medical Treatment?", url: "/en/jehovahs-witnesses/faq/jehovahs-witnesses-medical-treatment/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Personal and Family Life", question: "Are Jehovah’s Witnesses Opposed to Vaccination?", url: "/en/jehovahs-witnesses/faq/jw-vaccines-immunization/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Personal and Family Life", question: "Why Don’t Jehovah’s Witnesses Accept Blood Transfusions?", url: "/en/jehovahs-witnesses/faq/jehovahs-witnesses-why-no-blood-transfusions/" },
@@ -347,6 +353,7 @@ export class QuestionService {
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Personal and Family Life", question: "Do Jehovah’s Witnesses Have Rules About Dating?", url: "/en/jehovahs-witnesses/faq/jw-dating/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Personal and Family Life", question: "How Do Jehovah’s Witnesses View Divorce?", url: "/en/jehovahs-witnesses/faq/divorce-jw-view/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Personal and Family Life", question: "Do Jehovah’s Witnesses Ban Certain Movies, Books, or Songs?", url: "/en/jehovahs-witnesses/faq/do-jehovahs-witnesses-ban-certain-entertainment/" },
+
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Customs and Celebrations", question: "Why Don’t Jehovah’s Witnesses Celebrate Certain Holidays?", url: "/en/jehovahs-witnesses/faq/jw-celebrate-holidays/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Customs and Celebrations", question: "Why Don’t Jehovah’s Witnesses Celebrate Christmas?", url: "/en/jehovahs-witnesses/faq/why-not-celebrate-christmas/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Customs and Celebrations", question: "Why Don’t Jehovah’s Witnesses Celebrate Easter?", url: "/en/jehovahs-witnesses/faq/why-not-celebrate-easter/" },
@@ -354,18 +361,19 @@ export class QuestionService {
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Customs and Celebrations", question: "What Happens at a Wedding of Jehovah’s Witnesses?", url: "/en/jehovahs-witnesses/faq/jw-weddings/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Customs and Celebrations", question: "Why Do Jehovah’s Witnesses Observe the Lord’s Supper Differently From the Way Other Religions Do?", url: "/en/jehovahs-witnesses/faq/lords-supper/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Customs and Celebrations", question: "How Do Jehovah’s Witnesses View Funerals?", url: "/en/jehovahs-witnesses/faq/funeral/" },
+
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Who Are Jehovah's Witnesses?", question: "Are Jehovah’s Witnesses Christians?", url: "/en/jehovahs-witnesses/faq/are-jehovahs-witnesses-christians/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Who Are Jehovah's Witnesses?", question: "Are Jehovah’s Witnesses Protestants?", url: "/en/jehovahs-witnesses/faq/are-jehovahs-witnesses-protestants/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Who Are Jehovah's Witnesses?", question: "Are Jehovah’s Witnesses an American Sect?", url: "/en/jehovahs-witnesses/faq/not-a-sect/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Who Are Jehovah's Witnesses?", question: "Are Jehovah’s Witnesses Zionists?", url: "/en/jehovahs-witnesses/faq/beliefs-about-zionism/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Who Are Jehovah's Witnesses?", question: "Are Jehovah’s Witnesses a Cult?", url: "/en/jehovahs-witnesses/faq/are-jehovahs-witnesses-a-cult/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Who Are Jehovah's Witnesses?", question: "How Many of Jehovah’s Witnesses Are There Worldwide?", url: "/en/jehovahs-witnesses/faq/how-many-jw/" },
+
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Becoming a Witness", question: "How Do I Become One of Jehovah’s Witnesses?", url: "/en/jehovahs-witnesses/faq/how-to-become-jehovahs-witness/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Becoming a Witness", question: "Am I Expected to Become One of Jehovah’s Witnesses if I Study the Bible With Them?", url: "/en/jehovahs-witnesses/faq/no-obligation-study/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Becoming a Witness", question: "How Are Jehovah’s Witnesses Trained for Their Personal Ministry?", url: "/en/jehovahs-witnesses/faq/jw-training-for-personal-ministry/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Becoming a Witness", question: "Can a Person Resign From Being One of Jehovah’s Witnesses?", url: "/en/jehovahs-witnesses/faq/resign/" },
     { category: "Frequently Asked Questions About Jehovah’s Witnesses - Becoming a Witness", question: "Do Jehovah’s Witnesses Shun Those Who Used to Belong to Their Religion?", url: "/en/jehovahs-witnesses/faq/shunning/" },
-    { category: "Frequently Asked Questions About Jehovah’s Witnesses - Becoming a Witness", question: "Frequently Asked Questions About Jehovah’s Witnesses", url: "/en/jehovahs-witnesses/faq/" }
   ];
 
   private usedQuestions: number[] = [];
