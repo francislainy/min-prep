@@ -10,14 +10,15 @@ import { Question } from '../../models/question.model';
   imports: [AsyncPipe, NgClass],
   template: `
     <div class="question-container">
-      <a [href]="(currentQuestion$ | async)?.url ? 'https://www.jw.org' + (currentQuestion$ | async)?.url : 'https://www.jw.org/en/bible-teachings/questions/'">
-      <div
+      <a
+        [href]="(currentQuestion$ | async)?.url ? 'https://www.jw.org' + (currentQuestion$ | async)?.url : 'https://www.jw.org/en/bible-teachings/questions/'">
+        <div
           class="speech-bubble"
           [ngClass]="(animationState$ | async) || ''"
         >
-        <span class="category">
-          {{ (currentQuestion$ | async)?.category }}
-        </span>
+          <span class="category">
+            {{ (currentQuestion$ | async)?.category }}
+          </span>
           <p class="question">{{ (currentQuestion$ | async)?.question }}</p>
         </div>
       </a>
@@ -40,7 +41,7 @@ import { Question } from '../../models/question.model';
       padding: 1.5rem;
       box-shadow: 0 4px 6px var(--shadow);
       width: 90%;
-      margin-right: 10px;
+      margin: 0 auto;
       min-height: 100px;
       display: flex;
       align-items: center;
@@ -81,28 +82,42 @@ import { Question } from '../../models/question.model';
       position: absolute;
       top: -10px;
       left: 20px;
+      right: 20px;
       background-color: var(--primary);
       color: white;
       padding: 0.25rem 0.75rem;
       border-radius: 1rem;
       font-size: 0.875rem;
       font-weight: 500;
-      z-index: 1;
     }
 
     .question {
-      margin-top: 10px;
+      margin-top: 20px; /* Add adequate space for the category */
+      width: 100%;
     }
 
     a {
       color: inherit;
       text-decoration: none;
+      display: block;
+      width: 100%;
+      justify-content: center;
     }
 
     @media (max-width: 640px) {
       .speech-bubble {
         font-size: 1.125rem;
         padding: 1.25rem;
+      }
+
+      .category {
+        top: -10px;
+        left: 10px;
+        right: 10px;
+      }
+
+      .question {
+        margin-top: 25px; /* Slightly more space on mobile */
       }
     }
   `]
