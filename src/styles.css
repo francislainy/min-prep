@@ -1,9 +1,9 @@
 :root {
-  --primary: #4f46e5;
-  --primary-light: #6366f1;
-  --background: #f9fafb;
-  --text: #1f2937;
-  --bubble: #ffffff;
+  --primary: #4b0082; /* Indigo */
+  --primary-light: #6a0dad; /* Dark Orchid */
+  --background: #ffffff; /* White */
+  --text: #333333; /* Dark Gray */
+  --bubble: #f0f0f0; /* Light Gray */
   --shadow: rgba(0, 0, 0, 0.1);
 }
 
@@ -18,8 +18,8 @@ body {
 }
 
 .dark-mode {
-  --primary: #818cf8;
-  --primary-light: #a5b4fc;
+  --primary: #ff6347; /* Tomato */
+  --primary-light: #ff7f50; /* Coral */
   --background: #1f2937;
   --text: #f9fafb;
   --bubble: #374151;
