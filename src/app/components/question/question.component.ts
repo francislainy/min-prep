@@ -18,7 +18,7 @@ import { Question } from '../../models/question.model';
         <span class="category">
           {{ (currentQuestion$ | async)?.category }}
         </span>
-          <p>{{ (currentQuestion$ | async)?.question }}</p>
+          <p class="question">{{ (currentQuestion$ | async)?.question }}</p>
         </div>
       </a>
     </div>
@@ -88,6 +88,10 @@ import { Question } from '../../models/question.model';
       font-size: 0.875rem;
       font-weight: 500;
       z-index: 1;
+    }
+
+    .question {
+      margin-top: 10px;
     }
 
     a {
