@@ -10,15 +10,17 @@ import { Question } from '../../models/question.model';
   imports: [AsyncPipe, NgClass],
   template: `
     <div class="question-container">
+      <a [href]="(currentQuestion$ | async)?.url ? 'https://www.jw.org' + (currentQuestion$ | async)?.url : 'https://www.jw.org/en/bible-teachings/questions/'">
       <div
-        class="speech-bubble"
-        [ngClass]="(animationState$ | async) || ''"
-      >
+          class="speech-bubble"
+          [ngClass]="(animationState$ | async) || ''"
+        >
         <span class="category">
           {{ (currentQuestion$ | async)?.category }}
         </span>
-        <p>{{ (currentQuestion$ | async)?.question }}</p>
-      </div>
+          <p>{{ (currentQuestion$ | async)?.question }}</p>
+        </div>
+      </a>
     </div>
   `,
   styles: [`
@@ -85,6 +87,11 @@ import { Question } from '../../models/question.model';
       font-size: 0.875rem;
       font-weight: 500;
       z-index: 1;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
     }
 
     @media (max-width: 640px) {

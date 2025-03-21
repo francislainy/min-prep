@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   template: `
     <footer>
-      <p>Practice answering questions on the fly to improve your critical thinking skills.</p>
+      <p>Practice answering questions on the fly to improve your ministry skills.</p>
     </footer>
   `,
   styles: [`
