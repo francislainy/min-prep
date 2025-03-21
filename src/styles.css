@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --primary: #4f46e5;
+  --primary-light: #6366f1;
+  --background: #f9fafb;
+  --text: #1f2937;
+  --bubble: #ffffff;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode {
+  --primary: #818cf8;
+  --primary-light: #a5b4fc;
+  --background: #1f2937;
+  --text: #f9fafb;
+  --bubble: #374151;
+  --shadow: rgba(0, 0, 0, 0.3);
+}
